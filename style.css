@@ -40,3 +40,7 @@ footer a {
     border-bottom: 1px solid #ffc107;
     margin-bottom: 5px;
 }
+.carousel-item img {
+    max-height: 600px;
+    width: auto;
+}
