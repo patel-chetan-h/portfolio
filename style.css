@@ -10,7 +10,12 @@
 .text--heading {
     font-family: 'Cedarville', cursive;
 }
-
+.navbar-item {
+    transition: all .2s;
+}
+.navbar-item:hover {
+    transform: scale(1.1)
+}
 @media (min-width: 768px) { 
     .dropdown-menu {
         max-height: 305px;
