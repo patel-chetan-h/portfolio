@@ -10,6 +10,34 @@
 .text--heading {
     font-family: 'Cedarville', cursive;
 }
+
+@media (min-width: 768px) { 
+    .dropdown-menu {
+        max-height: 305px;
+        overflow-y: auto;
+    }
+    .dropdown-menu::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+
+    .dropdown-menu::-webkit-scrollbar {
+        width: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .dropdown-menu::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-image: -webkit-gradient(linear,
+                        left top,
+                        left bottom,
+                        color-stop(0.4, #c89fb5),
+                        color-stop(0.7, #80678e),
+                        color-stop(0.9, #46537d));
+    }
+}
+
 .banner {
     background: url('assets/hero-bg.jpeg') no-repeat center center / cover;
     width: 100%;
