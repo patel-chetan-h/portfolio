@@ -121,7 +121,7 @@
     margin-top: 20vh;
 }
 .banner-heading, .banner-heading + h5 {
-    color: #010101;
+    color: #000;
     font-weight: bold;
     text-align: center;
 }
