@@ -69,13 +69,11 @@
 }
 @media (min-width: 768px) { 
     .dropdown-menu {
-        display: none;
         max-height: 305px;
         overflow: hidden;
         animation: dropdownAnimate 2s ease-in-out;
     }
     .dropdown:hover .dropdown-menu {
-        display: block;
         overflow: auto;
     }
     @-webkit-keyframes dropdownAnimate {
