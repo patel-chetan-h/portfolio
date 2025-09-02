@@ -118,10 +118,12 @@
     height: 100vh;
 }
 .banner-heading {
-    margin-top: 200px;
+    margin-top: 20vh;
 }
 .banner-heading, .banner-heading + p {
-    color: #041722;
+    color: #010101;
+    font-weight: bold;
+    text-align: center;
 }
 .banner-btn {
     background-color: rgb(17,27,27) !important;
